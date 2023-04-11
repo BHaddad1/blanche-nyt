@@ -1,18 +1,21 @@
 import { NavLink } from "react-router-dom";
 import { ListCard } from "../ListCard/ListCard";
 import { useNavigate } from 'react-router-dom';
+import { useState } from "react";
+import { Form } from "../Form/Form";
 
-export const List = ({ articles }) => {
+export const List = ({ filteredArticles, handleSearchInput }) => {
 
-  const navigate = useNavigate();
+  const navigate = useNavigate();  
 
-  const mappedArticles = articles.map(article => {
+  const mappedFilteredArticles = filteredArticles.map(article => {
     return (
       <div key={article.id}>
         <NavLink to={`/details/${article.id}`} className="list-link" state={article}>
           <ListCard 
             title={article.title}
             id={article.id}
+            author={article.byline}
           />
         </NavLink>
       </div>
@@ -22,11 +25,9 @@ export const List = ({ articles }) => {
   return (
     <div>
       <h1 className="list-title">Blanche's Times</h1>
-      <form>
-        
-      </form>
+      <Form handleSearchInput={handleSearchInput}/>
       <div className="list-container">
-      {mappedArticles}
+        {mappedFilteredArticles}
       </div>
     </div>
   )
