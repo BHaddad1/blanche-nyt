@@ -9,6 +9,7 @@ function App() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [filteredArticles, setFilteredArticles] = useState([]);
 
   useEffect(() => {
     setLoading(true)
@@ -16,18 +17,25 @@ function App() {
       .then(data => {
         setLoading(false);
         console.log(data.results)
-        setArticles(data.results)
+        setArticles(data.results);
+        setFilteredArticles(data.results);
       })
       .catch(err => {
         console.log(err)
         setError("Failed to fetch articles.")
+        setLoading(false);
       })
   }, [])
+
+  const handleSearchInput = (search) => {
+    const filtered = articles.filter(work => work.title.toLowerCase().includes(search))
+    setFilteredArticles(filtered);
+  }
 
   return (
     <div>
       <Routes>
-        <Route path="/" element={<List articles={articles} />} />
+        <Route path="/" element={<List filteredArticles={filteredArticles} handleSearchInput={handleSearchInput}/>} />
         <Route path="/details/:id" element={<Details />} />
       </Routes>
     </div>
