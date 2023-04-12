@@ -1,0 +1,198 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/c26c2019-14e6-5773-8e07-3122a1c17f38",
+      "url": "https://www.nytimes.com/2023/04/11/nyregion/bragg-lawsuit-jim-jordan-trump-indictment.html",
+      "id": 100000008854046,
+      "asset_id": 100000008854046,
+      "source": "New York Times",
+      "published_date": "2023-04-11",
+      "updated": "2023-04-11 23:25:48",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "United States Politics and Government;New York State Criminal Case Against Trump (71543-23);Suits and Litigation (Civil);District Attorneys;Bragg, Alvin;Pomerantz, Mark F;Jordan, Jim (1964- );Trump, Donald J;House Committee on the Judiciary;Republican Party",
+      "column": null,
+      "byline": "By Jonah E. Bromwich, Maggie Haberman, Ben Protess and William K. Rashbaum",
+      "type": "Article",
+      "title": "Bragg Sues Jim Jordan in Move to Block Interference in Trump Case",
+      "abstract": "Mr. Jordan, a Republican from Ohio, had subpoenaed a former prosecutor who worked on the Manhattan district attorney’s investigation into former President Donald J. Trump.",
+      "des_facet": [
+        "United States Politics and Government",
+        "New York State Criminal Case Against Trump (71543-23)",
+        "Suits and Litigation (Civil)",
+        "District Attorneys"
+      ],
+      "org_facet": ["House Committee on the Judiciary", "Republican Party"],
+      "per_facet": [
+        "Bragg, Alvin",
+        "Pomerantz, Mark F",
+        "Jordan, Jim (1964- )",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Mr. Bragg’s lawsuit is an escalation in the confrontation between his office and the House Judiciary Committee, which Jim Jordan chairs.",
+          "copyright": "Dave Sanders for The New York Times",
+          "approved_for_syndication": 1,
+          "media_metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/04/11/multimedia/11bragg-jordan-wlcm/11bragg-jordan-wlcm-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/04/11/multimedia/11bragg-jordan-wlcm/11bragg-jordan-wlcm-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/04/11/multimedia/11bragg-jordan-wlcm/11bragg-jordan-wlcm-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/746907db-0130-5fe7-a9e6-6598feae2116",
+      "url": "https://www.nytimes.com/2023/04/11/climate/colorado-river-water-cuts-drought.html",
+      "id": 100000008852199,
+      "asset_id": 100000008852199,
+      "source": "New York Times",
+      "published_date": "2023-04-11",
+      "updated": "2023-04-12 10:36:38",
+      "section": "Climate",
+      "subsection": "",
+      "nytdsection": "climate",
+      "adx_keywords": "Water;Drought;Global Warming;United States Politics and Government;Federal-State Relations (US);Hydroelectric Power;Interior Department;Democratic Party;Colorado River;California;Arizona;Nevada;Lake Mead;Lake Powell (Utah-Ariz)",
+      "column": null,
+      "byline": "By Christopher Flavelle",
+      "type": "Article",
+      "title": "Biden Administration Proposes Evenly Cutting Water Allotments From Colorado River",
+      "abstract": "As the river shrinks, the Biden administration is getting ready to impose, for the first time, reductions in water supplies to states.",
+      "des_facet": [
+        "Water",
+        "Drought",
+        "Global Warming",
+        "United States Politics and Government",
+        "Federal-State Relations (US)",
+        "Hydroelectric Power"
+      ],
+      "org_facet": ["Interior Department", "Democratic Party"],
+      "per_facet": [],
+      "geo_facet": [
+        "Colorado River",
+        "California",
+        "Arizona",
+        "Nevada",
+        "Lake Mead",
+        "Lake Powell (Utah-Ariz)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Water intake towers at the Hoover Dam. Last summer, the water level at Lake Mead, created by the dam on the Colorado River, reached its lowest level ever.",
+          "copyright": "Erin Schaff/The New York Times",
+          "approved_for_syndication": 1,
+          "media_metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/04/11/multimedia/11cli-COLORADORIVER-01-mbhc/11cli-COLORADORIVER-01-mbhc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/04/11/multimedia/11cli-COLORADORIVER-01-mbhc/11cli-COLORADORIVER-01-mbhc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/04/11/multimedia/11cli-COLORADORIVER-01-mbhc/11cli-COLORADORIVER-01-mbhc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/142787ab-ffaf-5ad1-8a24-c482d7caccdf",
+      "url": "https://www.nytimes.com/2023/04/10/us/louisville-kentucky-shooting.html",
+      "id": 100000008852162,
+      "asset_id": 100000008852162,
+      "source": "New York Times",
+      "published_date": "2023-04-10",
+      "updated": "2023-04-11 17:25:21",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Louisville, Ky, Bank Shooting (April 2023);Politics and Government;Barrick, Joshua  (d 2023);Eckert, Deana (d 2023);Elliott, Thomas K (d 2023);Farmer, Juliana (d 2023);Tutt, James (d 2023);Beshear, Andrew G (1977- );Sturgeon, Connor (1998-2023);Old National Bank (Louisville, Ky);Louisville (Ky);Kentucky",
+      "column": null,
+      "byline": "By Kevin Williams, Amanda Holpuch and Campbell Robertson",
+      "type": "Article",
+      "title": "Gunman Kills 5 Co-Workers at Louisville Bank on Livestream, Police Say",
+      "abstract": "The police did not give a motive for the shooting in the Kentucky city but said that the gunman, who also died, had been a bank employee.",
+      "des_facet": [
+        "Louisville, Ky, Bank Shooting (April 2023)",
+        "Politics and Government"
+      ],
+      "org_facet": ["Old National Bank (Louisville, Ky)"],
+      "per_facet": [
+        "Barrick, Joshua  (d 2023)",
+        "Eckert, Deana (d 2023)",
+        "Elliott, Thomas K (d 2023)",
+        "Farmer, Juliana (d 2023)",
+        "Tutt, James (d 2023)",
+        "Beshear, Andrew G (1977- )",
+        "Sturgeon, Connor (1998-2023)"
+      ],
+      "geo_facet": ["Louisville (Ky)", "Kentucky"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "At least five people were killed and eight others were injured in a shooting at a bank in downtown Louisville, Ky., on Monday morning, the police said.",
+          "copyright": "Michael Clevenger/Courier Journal, via Associated Press",
+          "approved_for_syndication": 1,
+          "media_metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/04/10/multimedia/10nat-louisville-promo-wkmc/10nat-louisville-promo-wkmc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/04/10/multimedia/10nat-louisville-promo-wkmc/10nat-louisville-promo-wkmc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/04/10/multimedia/10nat-louisville-promo-wkmc/10nat-louisville-promo-wkmc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

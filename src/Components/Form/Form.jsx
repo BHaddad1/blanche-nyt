@@ -18,7 +18,6 @@ export const Form = ({ handleSearchInput }) => {
           }}
         />
       </label>
-      <button>Clear</button>
     </form>
   )
 }
