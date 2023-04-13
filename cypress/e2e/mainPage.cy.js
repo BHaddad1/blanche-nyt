@@ -5,6 +5,8 @@ describe('Main Page', () => {
   });
   it('Should have a title and a list of articles on the landing page', () => {
     cy.get("h1").contains("Blanche's Times").should("be.visible");
-    cy.get(':nth-child(1) > .list-link > .card-container > .title').should("have.length", 19)
+    cy.get(':nth-child(1) > .list-link > .card-container').should("have.length", 1)
+    cy.get(':nth-child(1) > .list-link > .card-container > .title').should("be.visible");
+    cy.get(':nth-child(1) > .list-link > .card-container > p').should("be.visible");
   });
 });
