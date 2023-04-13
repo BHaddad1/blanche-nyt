@@ -1,0 +1,7 @@
+.card-container {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 20vh;
+  margin-bottom: 5%;
+  width: 37vw;
+}

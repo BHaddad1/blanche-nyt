@@ -3,6 +3,7 @@ import { ListCard } from "../ListCard/ListCard";
 import { useNavigate } from 'react-router-dom';
 import { useState } from "react";
 import { Form } from "../Form/Form";
+import "./List.css";
 
 export const List = ({ filteredArticles, handleSearchInput }) => {
 

@@ -1,3 +1,5 @@
+import "./ListCard.css";
+
 export const ListCard = ({ title, id, author}) => {
   return (
     <div className="card-container" key={id}>

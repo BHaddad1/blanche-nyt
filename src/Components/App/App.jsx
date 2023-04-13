@@ -16,12 +16,10 @@ function App() {
     fetchArticles()
       .then(data => {
         setLoading(false);
-        console.log(data.results)
         setArticles(data.results);
         setFilteredArticles(data.results);
       })
       .catch(err => {
-        console.log(err)
         setError("Failed to fetch articles.")
         setLoading(false);
       })
@@ -34,6 +32,7 @@ function App() {
 
   return (
     <div>
+      {loading && <h2>Loading, please hold.</h2>}
       <Routes>
         <Route path="/" element={<List filteredArticles={filteredArticles} handleSearchInput={handleSearchInput}/>} />
         <Route path="/details/:id" element={<Details />} />

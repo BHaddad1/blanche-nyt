@@ -1,8 +1,13 @@
 import { useState } from "react";
+import "./Form.css";
 
 export const Form = ({ handleSearchInput }) => {
 
   const [search, setSearch] = useState("");
+
+  const handleClearButton = () => {
+    setSearch("");
+  }
 
   return (
     <form className="form">
@@ -18,6 +23,7 @@ export const Form = ({ handleSearchInput }) => {
           }}
         />
       </label>
+      <button onClick={handleClearButton}>Clear</button>
     </form>
   )
 }
