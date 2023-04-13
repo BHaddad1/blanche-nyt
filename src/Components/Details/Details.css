@@ -1,0 +1,26 @@
+.details-container {
+  height: 80vh;
+  width: 50vw;
+}
+
+.details-header {
+  font-size: 50px;
+  margin: 0;
+}
+
+.details-title,
+.p-details {
+  font-size: 30px;
+  margin: 0;
+}
+
+.details-img {
+  height: 10vh;
+  width: 5vw;
+}
+
+.nav-link-details {
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+}
